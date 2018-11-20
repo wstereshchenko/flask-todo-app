@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask
-from controllers import blueprints
-from configs import config
-from extensions import db
+from application.controllers import blueprints
+from application.configs import config
+from application.extensions import db
 
 
 def create_app(config_name=None):
