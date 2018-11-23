@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import todo
+import application.controllers.todo
 
 blueprints = [
     todo.todo_bp
